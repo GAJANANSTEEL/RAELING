@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best quality steel railings by GAJANAN STEEL RAILING">
+    <title>GAJANAN STEEL RAILING</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">GAJANAN STEEL RAILING</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="banner">
+            <h1>Best Quality Steel Railings</h1>
+            <button onclick="document.querySelector('#products').scrollIntoView({behavior: 'smooth'})">Explore Our Designs</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Steel Railing Designs</h2>
+        <div class="product-gallery">
+            <div class="product active">
+                <img src="railing1.jpg" alt="Steel Railing Design 1">
+                <h3>Design 1</h3>
+                <p>Durable, rust-resistant, customizable.</p>
+            </div>
+            <div class="product">
+                <img src="railing2.jpg" alt="Steel Railing Design 2">
+                <h3>Design 2</h3>
+                <p>Aesthetic, modern, rust-resistant.</p>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+        <button class="prev">Prev</button>
+        <button class="next">Next</button>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>GAJANAN STEEL RAILING has been providing top-quality steel railing solutions for over a decade. Our mission is to offer durable, beautiful, and customizable products to fit any design need.</p>
+        <h3>Why Choose Us?</h3>
+        <ul>
+            <li>High-quality craftsmanship</li>
+            <li>Excellent customer service</li>
+            <li>Custom designs tailored to your needs</li>
+        </ul>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p>Phone: +91 12345 67890</p>
+            <p>Email: info@gajanasteel.com</p>
+            <p>Address: 123 Steel St., Mumbai, India</p>
+        </div>
+        <div class="map">
+            <iframe src="https://maps.google.com/maps?q=Mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed" width="400" height="300"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 GAJANAN STEEL RAILING. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Link the JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
